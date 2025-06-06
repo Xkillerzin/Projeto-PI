@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+.servicos {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.titulo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: Italianno;
+}
+
+.linha-vermelha {
+  width: 80px;
+  height: 2px;
+  background-color: red;
+  margin: 0 auto 20px;
+}
+
+.subtitulo {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+/* Container geral dos cards */
+.grade-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px; /* espaço vertical entre linhas */
+}
+
+/* Linha com dois cards */
+.linha-cima {
+  display: flex;
+  justify-content: center;
+  gap: 80px; /* espaço horizontal entre os dois cards */
+  flex-wrap: wrap;
+}
+
+/* Card individual */
+.card {
+  position: relative;
+  width: 420px;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4); /* brilho vermelho opcional */
+}
+
+/* Texto dentro do card */
+.texto-card {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.card h3 {
+  margin: 0 0 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
